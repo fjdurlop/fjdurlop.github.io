@@ -1,34 +1,26 @@
-<!-- falta las fuentes 
-	los textos de los cursos
-	programacion mas info
--->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>DurPro</title>
+	<title>Costos</title>
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="icon" type="image" href="img/logo.png" />
-	
-	<link href="https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Roboto+Mono" rel="stylesheet">
-
-	
+		<link href="https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Roboto+Mono" rel="stylesheet">
 
 </head>
 <body>
 	<!-- NAVVAR -->
 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
-	<a class="navbar-brand" href="#"><img src="img/logo.png" id="imgLogo" alt=""></a>
+	<a class="navbar-brand" href="index.html"><img src="img/logo.png" id="imgLogo" alt=""></a>
 	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 	<span class="navbar-toggler-icon"></span>
 	</button>
 
 	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	<ul class="navbar-nav mr-auto">
-	  <li class="nav-item active">
-	    <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+	  <li class="nav-item ">
+	    <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
 	  </li>
 	  <li class="nav-item">
 	    <a class="nav-link" href="programacion.html">¿Programación?</a>
@@ -36,7 +28,7 @@
 	  <li class="nav-item ">
 	    <a class="nav-link" href="clases.html">Clases<span class="sr-only">(current)</span></a>
 	  </li>
-	  <li class="nav-item a">
+	  <li class="nav-item active">
 	    <a class="nav-link" href="costos.html">Costos<span class="sr-only">(current)</span></a>
 	  </li>
 	  <li class="nav-item dropdown">
@@ -70,17 +62,10 @@
 	</ol>
 	<div class="carousel-inner">
 	  <div class="carousel-item active">
-	    <img src="img/ind1.jpg" class="d-block w-100" alt="...">
+	    <img src="img/cos1.png" class="d-block w-100" alt="...">
 	    <div class="carousel-caption d-none d-md-block">
-	      <h5>Programación Básica</h5>
-	      <p>Aprende a programar desde cero.</p>
-	    </div>
-	  </div>
-	  <div class="carousel-item">
-	    <img src="img/ind2.png" class="d-block w-100" alt="...">
-	    <div class="carousel-caption d-none d-md-block">
-	      <h5>Aprende los lenguajes más utilizados en el 2019</h5>
-	      <p>Python, Java, Javascript, C++, PHP y otros más.</p>
+	      <h5>Precios</h5>
+	      <p>Actualmente contamos con los mejores precios del mercado y la mejor calidad de cursos que puedas encontrar en la Ciudad de México</p>
 	    </div>
 	  </div>
 	  <!-- <div class="carousel-item">
@@ -102,12 +87,70 @@
 	</div>
 	</div>
 	<!-- Termina carrusel -->
+	<!-- dropdown -->
+	<div class="accordion parrafo2" id="accordionExample">
+	  <div class="card">
+	    <div class="card-header" id="headingOne">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+	          Cursos Semestrales
+	        </button>
+	      </h2>
+	    </div>
+
+	    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Durante las fechas semestrales se dan cursos que duran un mes aproximadamente, dos horas los días lunes, miercoles y viernes.
+
+	      </div>
+	      <div class="card-body">
+	        Costo - $800 MXN
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" id="headingTwo">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+	          Cursos Sabatinos
+	        </button>
+	      </h2>
+	    </div>
+	    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Los cursos sabatinos duran cuatro semanas y son de 5 horas sin descanso.
+	      </div>
+	      <div class="card-body">
+	        Costo - $1000 MXN
+	      </div>
+	    </div>
+	  </div>
+	  <div class="card">
+	    <div class="card-header" id="headingThree">
+	      <h2 class="mb-0">
+	        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+	          Cursos Intensivos
+	        </button>
+	      </h2>
+	    </div>
+	    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+	      <div class="card-body">
+	        Los cursos intensivos se dan de lunes a sábado, dos horas diarias y los sábados cinco horas.
+	      </div>
+	      <div class="card-body">
+	        Costo - $1600 MXN
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	<!-- termn dropd -->
+
 	<!-- footer -->
 	<footer class="footer">
 		<div class="jumbotron jumbotron-fluid footer" >
 		<div class="container">
 			<div class="contI">
-			<p class="centrar ">
+			<p class="centrar">
 				<a href="https://facebook.com/fjdurlop"><img  class="iconos" src="img/fb.png" alt=""></a>
 				<a href="https://twitter.com/fjdurlop9"><img src="img/tt.png" class="iconos" alt=""></a>
 				<a href="https://instagram.com/fjdurlop"><img src="img/ig.png" class="iconos" alt=""></a>
@@ -120,8 +163,10 @@
 		</div>
 	</footer>
 	<!-- term footer -->
+	
+	
 </body>
-<script src="js/app.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/bootstrap.bundle.js"></script>
+<script src="js/app.js"></script>
 </html>
